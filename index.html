@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepwoken Build Roulette</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/data.js"></script>
+    <script src="scripts/main.js"></script>
+</head>
+<body>
+    <div id="side-menu" class="hidden">
+        <h2>Navigation</h2>
+        <hr>
+        <div id="menu-roulette" class="nav-option">Roulette</div>
+        <div id="menu-discord" class="nav-option"><a href="https://discord.gg/WBykDzPpXH" target="_blank">Discord</a></div>
+        <div id="menu-about-me" class="nav-option">About Me</div>
+        <div id="support-me" class="nav-option">Support Me</div>
+    </div>
+    <header><button id="menu-button" onclick="toggleMenu()"><img src="images/menu.png"></button>
+        <img src="images/favicon.png" alt="Favicon" id="logo">
+        Deepwoken Build Roulette
+    </header>
+    <main>
+        <!--Main navigation menu-->
+        <nav id="mainmenu">
+            <div id="menu-main">
+                <p>Can’t decide what to play?
+            Roll a Build and let Deepwoken’s tides choose your path.
+            Random oaths, attunements, and weapons — fresh every roll.
+            </p>
+                <button>Roll a Build</button>
+            </div>
+            <div id="menu-buttons">
+                <button>Weapons</button>
+                <button>Offhands</button>
+                <button>Enchants</button>
+                <button>Attunements</button>
+                <button>Oaths</button>
+                <button>Resonances</button>
+                <button>Aspects</button>
+                <button>Origins</button>
+            </div>
+        </nav>
+        <!--Columns-->
+        <div id="content">
+            <div id="cweapons" class="content-column">
+                <div class="cimage"></div>
+                <div class="ctext"></div>
+                <div class="cbutton">
+                    <button>Roll Weapon</button>
+                    <hr>
+                    <button>Lock Weapon</button>
+                </div>
+            </div>
+            <div id="coffhands" class="content-column">
+                <div class="cimage"></div>
+                <div class="ctext"></div>
+                <div class="cbutton">
+                    <button>Roll Offhand</button>
+                    <hr>
+                    <button>Lock Offhand</button>
+                </div>
+            </div>
+            <div id="cenchants" class="content-column">
+                <div class="cimage"></div>
+                <div class="ctext"></div>
+                <div class="cbutton">
+                    <button>Roll Enchant</button>
+                    <hr>
+                    <button>Lock Enchant</button>
+                </div>
+            </div>
+            <div id="cattunements" class="content-column">
+                <div class="cimage"></div>
+                <div class="ctext"></div>
+                <div class="cbutton">
+                    <button>Roll Attunement</button>
+                    <hr>
+                    <button>Lock Attunement</button>
+                </div>
+            </div>
+            <div id="coaths" class="content-column">
+                <div class="cimage"></div>
+                <div class="ctext"></div>
+                <div class="cbutton">
+                    <button>Roll Oath</button>
+                    <hr>
+                    <button>Lock Oath</button>
+                </div>
+            </div>
+            <div id="cresonances" class="content-column">
+                <div class="cimage"></div>
+                <div class="ctext"></div>
+                <div class="cbutton">
+                    <button>Roll Resonance</button>
+                    <hr>
+                    <button>Lock Resonance</button>
+                </div>
+            </div>
+            <div id="caspects" class="content-column">
+                <div class="cimage"></div>
+                <div class="ctext"></div>
+                <div class="cbutton">
+                    <button>Roll Aspect</button>
+                    <hr>
+                    <button>Lock Aspect</button>
+                </div>
+            </div>
+            <div id="corigins" class="last-column">
+                <div class="cimage"></div>
+                <div class="ctext"></div>
+                <div class="cbutton">
+                    <button>Roll Origin</button>
+                    <hr>
+                    <button>Lock Origin</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
